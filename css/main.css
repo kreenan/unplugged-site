@@ -152,7 +152,36 @@ footer .social-icons p {
   align-items: center;
 }
 
+/*-------Mobile header & footer styles ----*/
 
+header {
+  padding: 15px 0;
+}
+
+header.content-wrapper {
+  margin: 0;
+}
+
+header nav {
+  width: 60%;
+}
+
+header nav ul {
+  width: 45%;
+}
+
+.header-divider {
+  width: 100%;
+}
+
+footer.content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer p {
+  margin: 0;
+}
 
 /*-------- MOBILE HOMEPAGE STYLES --------*/
 
@@ -165,6 +194,10 @@ footer .social-icons p {
   flex-flow: row wrap;
 }
 
+.hero-area h2 {
+  padding: 50px 0;
+}
+
 /*** ASIDE ***/
 
 aside {
@@ -173,6 +206,15 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
+
+.form-description {
+  padding-top: 30px;
+}
+
+.form {
+  padding-bottom: 50px;
+}
+
 /*** Features ***/
 
 .features {
@@ -187,6 +229,11 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 45%;
+}
+
+.features p {
+  margin: 0;
 }
 
 /*** Reviews ***/
@@ -195,6 +242,10 @@ aside {
   justify-content: center;
   /*align-items: center;*/
   flex-flow: row wrap;
+}
+
+.reviews h3 {
+  width: 50%;
 }
 
 /*-------- ABOUT PAGE STYLES -------*/
